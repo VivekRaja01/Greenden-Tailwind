@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <link rel="icon" href="./images/leaf.png">   
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="bg-green-100 p-3 z-10 flex justify-between items-center sticky top-0 shadow-xl">
+        <h1 class="text-2xl font-medium drop-shadow-lg">GREENDEN</h1>
+        <div>
+            <div class="md:hidden">
+                <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg> 
+                </div>
+                
+            <ul class="flex gap-5 hidden md:flex text-gray-600">
+                <li><a href="./index.html" class="hover:text-black hover:underline">Home</a></li>
+                <li><a href="./product.html"  class="hover:text-black hover:underline">Products</a></li>
+                <li><a href="./contact.html"  class="hover:text-black hover:underline">Contact</a></li>
+            </ul>
+        </div>
+
+        
+    </nav>
+
+    <!--Side navbar-->
+    <section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000" style="width: 50%;height: 100vh;right: -50%;">
+        <div class="text-right p-5">
+            <p id="closenav" class="inline cursor-pointer">X</p>
+        </div>
+        <ul class="flex flex-col gap-10 items-center  text-gray-600">
+            <li><a href="./index.html" class="hover:text-black hover:underline">Home</a></li>
+            <li><a href="./product.html"  class="hover:text-black hover:underline">Products</a></li>
+            <li><a href="./contact.html"  class="hover:text-black hover:underline">Contact</a></li>
+        </ul>
+    </section>
+
+
+    <section class="p-4 text-center">
+        <h1 class="text-3xl font-bold mt-5 text-center">Our Products</h1>
+        <input id="search" style="width: 80%;" placeholder="Search for a Product..." type="text" class="p-2 m-3 border border-black">
+        <div id="product-container" class="grid grid-cols-2 md:grid-cols-4 gap-5 col-span-2 mt-5">
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl transition hover:cursor-pointer"
+                    src="./images/Flower1.png">
+                <h1>White Rose Plant</h1>
+                <p>$35.07</p>
+            </div>
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl transition hover:cursor-pointer"
+                    src="./images/Flower2.png">
+                <h1>Daffodil Flower</h1>
+                <p>$43.32</p>
+            </div>
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl  transition hover:cursor-pointer"
+                    src="./images/Flower3.png">
+                <h1>Lily Plant</h1>
+                <p>$57.20</p>
+            </div>
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl  transition hover:cursor-pointer"
+                    src="./images/Flower4.png">
+                <h1>Yellow Rose</h1>
+                <p>$40.06</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl transition hover:cursor-pointer"
+                    src="./images/flower5.png">
+                <h1>Bud Rose</h1>
+                <p>$41.65</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl transition hover:cursor-pointer"
+                    src="./images/flower6.png">
+                <h1>Snapdragon Flower</h1>
+                <p>$30.46</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl transition hover:cursor-pointer"
+                    src="./images/flower10.png">
+                <h1>Cherry Blossom </h1>
+                <p>$35.19</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl  transition hover:cursor-pointer"
+                    src="./images/flower8.png">
+                <h1>Strawflower Plant</h1>
+                <p>$51.36</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl transition hover:cursor-pointer"
+                    src="./images/flower11.png">
+                <h1>Geranium Plant</h1>
+                <p>$48.00</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl transition hover:cursor-pointer"
+                    src="./images/flower12.png">
+                <h1>Gardenia Flower</h1>
+                <p>$34.18</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl transition hover:cursor-pointer"
+                    src="./images/flower13.png">
+                <h1>Gerbera Daisy</h1>
+                <p>$47.43</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl transition hover:cursor-pointer"
+                    src="./images/flower14.png">
+                <h1>Viola and Pansy Plant</h1>
+                <p>$29.31</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl transition hover:cursor-pointer"
+                    src="./images/flower9.png">
+                <h1>Lisianthus Plant</h1>
+                <p>$38.08</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl transition hover:cursor-pointer"
+                    src="./images/flower16.png">
+                <h1>Peony Flower</h1>
+                <p>$31.29</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl transition hover:cursor-pointer"
+                    src="./images/flower17.png">
+                <h1>White Rose Plant</h1>
+                <p>$40.00</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl transition hover:cursor-pointer"
+                    src="./images/flower18.png">
+                <h1>Peony</h1>
+                <p>$63.27</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl transition hover:cursor-pointer"
+                    src="./images/flower19.png">
+                <h1>Bearded Iris</h1>
+                <p>$53.18</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl transition hover:cursor-pointer"
+                    src="./images/flower20.png">
+                <h1>Poppy Plant</h1>
+                <p>$49.59</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl transition hover:cursor-pointer"
+                    src="./images/flower21.png">
+                <h1>Sweet Pea</h1>
+                <p>$35.67</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline transform hover:-translate-y-2 hover:shadow-xl transition hover:cursor-pointer"
+                    src="./images/flower22.png">
+                <h1>Solar Flower</h1>
+                <p>$55.49</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <section class="bg-green-100 p-10 flex flex-col gap-5 mt-5">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+        <p>@ 2021 Greenday.com</p>
+    </section>
+</body>
+</html>
