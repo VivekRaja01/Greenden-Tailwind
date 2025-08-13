@@ -56,3 +56,7 @@ By completing this project, you will:
 1. Clone the repository
    ```bash
    git clone https://github.com/VivekRaja01/greenden.git
+
+## Author
+Vivek Raja
+GitHub: @VivekRaja01
