@@ -13,7 +13,7 @@ The website consists of three main pages:
 
 - Home Page – Welcomes visitors with an engaging layout and a brief introduction to Greenden.  
 - Products Page – Showcases green-themed or plant-related products using a neat grid/card layout.  
-- Contact Page – Provides contact information and a styled form for user interaction.
+- Contact Page – Provides contact information and a styled form for user interaction. 
 
 ---
 
